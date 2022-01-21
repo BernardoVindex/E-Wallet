@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-export const Nav = styled.nav`
+export const TittlePage = styled.div`
   width: 100%;
-  height: 50px;
+  height: 75px;
   background: green;
-  align-items: center;
 `

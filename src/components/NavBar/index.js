@@ -1,5 +1,7 @@
+import { Nav } from "./styles"
+
 export const NavBar = () => {
-  return (
-    <div>Barra</div>
-  )
-}
+   return (
+      <Nav />
+   )
+ }

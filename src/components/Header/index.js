@@ -1,5 +1,7 @@
+import { TittlePage } from "./styles"
+
 export const Header = () => {
   return (
-    <h1>Header</h1>
+    <TittlePage>Titulo de la página</TittlePage>
   )
 }
