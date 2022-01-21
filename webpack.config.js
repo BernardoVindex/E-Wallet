@@ -8,12 +8,12 @@ module.exports = {
     filename: "index.js"
   },
   resolve: {
-    extensions: ['.js','jsx']
+    extensions: ['.js','.jsx']
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
